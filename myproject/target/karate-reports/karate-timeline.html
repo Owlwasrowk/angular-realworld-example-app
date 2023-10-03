@@ -33,25 +33,28 @@
     </div>
     <div id="visualization"></div>
     <script>
-      var groups = [{ content: "main", id: 1 }];
+      var groups = [
+        { content: "pool-1-thread-1", id: 1 },
+        { content: "pool-1-thread-2", id: 2 },
+      ];
       var items = [
         {
           id: 1,
           group: 1,
-          content: "examples\/users\/users[1:7]",
-          start: 1696334192868,
-          end: 1696334193565,
+          content: "conduitApp\/feature\/HomePage[1:6]",
+          start: 1696335257998,
+          end: 1696335259126,
           title:
-            "examples\/users\/users[1:7] 13:56:32.868-13:56:33.565 get all users and then get the first user by id",
+            "conduitApp\/feature\/HomePage[1:6] 14:14:17.998-14:14:19.126 Get all tags",
         },
         {
           id: 2,
-          group: 1,
-          content: "examples\/users\/users[2:18]",
-          start: 1696334193577,
-          end: 1696334194036,
+          group: 2,
+          content: "conduitApp\/feature\/HomePage[2:11]",
+          start: 1696335257998,
+          end: 1696335259742,
           title:
-            "examples\/users\/users[2:18] 13:56:33.577-13:56:34.036 create a user and then get it by id",
+            "conduitApp\/feature\/HomePage[2:11] 14:14:17.998-14:14:19.742 Get 10 articles from the page",
         },
       ];
     </script>
